@@ -34,29 +34,27 @@ all: compilador.l compilador.y
 
 **Início e fim do programa**
 ```
-  init
+  ini
     ...
   end 
 ```
 
 **Atribuição de valores às variáveis**
 ```
- var a = 10
- var b = 10.5
- var c = "Uma string"
- var vetor[10]
- vetor[4] = 20
+ int a = 10
+ float b = 10.5
+ string c = "Uma string"
 ```
 
 **Ler variáveis**
 ```
  read(b) /* ler uma variável real */
- reads(c) /* ler uma variável do tipo string */
+ readstr(c) /* ler uma variável do tipo string */
 ```
 
 **Escrever variáveis**
 ```
- writer(b) /* escrever uma variável real */
+ write(b) /* escrever uma variável real */
  writes(c) /* escrever uma variável do tipo string */
 ```
 
