@@ -48,13 +48,13 @@ all: compilador.l compilador.y
 
 **Ler variáveis**
 ```
- read(b) /* ler uma variável real */
+ read(b) /* ler uma variável inteiro ou float */
  readstr(c) /* ler uma variável do tipo string */
 ```
 
 **Escrever variáveis**
 ```
- write(b) /* escrever uma variável real */
+ write(b) /* escrever uma variável do tipo inteiro ou float */
  writes(c) /* escrever uma variável do tipo string */
 ```
 
